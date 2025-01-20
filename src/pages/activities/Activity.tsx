@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SideNav = () => {
+const Activity = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const SideNav = () => {
   )
 }
 
-export default SideNav
+export default Activity
