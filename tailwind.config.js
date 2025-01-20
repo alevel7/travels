@@ -7,8 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        primaryBg: "#0D6EFD"
+        primary: "#0D6EFD",
+        secondary:"#E7F0FF",
+        tertiary: "#000031"
       },
+      backgroundColor: {
+        primaryBg: "#0D6EFD",
+        secondaryBg: "#E7F0FF"
+      }
     },
   },
   plugins: [

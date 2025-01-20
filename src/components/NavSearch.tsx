@@ -1,14 +1,17 @@
 import React from "react";
 import logo from "../assets/logo.svg";
 import { LuSearch } from "react-icons/lu";
+import { NavLink } from "react-router-dom";
 
 const NavSearch = () => {
   return (
     <div className="flex items-center gap-4 content-center">
-      <img src={logo} alt="logo" className="size-12" />
+      <NavLink to="/">
+        <img src={logo} alt="logo" className="size-12 cursor-pointer" />
+      </NavLink>
       <div className="relative">
         <div className="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-          <LuSearch className="text-gray-400"/>
+          <LuSearch className="text-gray-400" />
         </div>
         <input
           type="search"

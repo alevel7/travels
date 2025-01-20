@@ -6,7 +6,12 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from './pages/home/Home.tsx';
 import Hotels from './pages/hotels/Hotels.tsx';
 import Activity from './pages/activities/Activity.tsx';
-import Flights from './pages/flights/flights.tsx';
+import Flights from './pages/flights/Flights.tsx';
+import Study from './pages/study/Study.tsx';
+import Visa from './pages/visa/Visa.tsx';
+import Immigration from './pages/immigration/Immigration.tsx';
+import Medical from './pages/medical/Medical.tsx';
+import Vacation from './pages/vacation/Vacation.tsx';
 
 const router = createBrowserRouter([
   {
@@ -14,8 +19,12 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "home",
+        path: "",
         element: <Home />,
+      },
+      {
+        path: "activities",
+        element: <Activity />,
       },
       {
         path: "hotels",
@@ -27,23 +36,23 @@ const router = createBrowserRouter([
       },
       {
         path: "study",
-        element: <Activity />,
+        element: <Study />,
       },
       {
         path: "visa",
-        element: <Activity />,
+        element: <Visa />,
       },
       {
         path: "immigration",
-        element: <Activity />,
+        element: <Immigration />,
       },
       {
         path: "medical",
-        element: <Activity />,
+        element: <Medical />,
       },
       {
         path: "vacation",
-        element: <Activity />,
+        element: <Vacation />,
       },
     ],
   },

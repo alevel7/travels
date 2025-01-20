@@ -9,7 +9,7 @@ function App() {
       <NavBar />
       <div className="bg-gray-100 flex gap-10 p-5">
         <SideNav />
-        <main className="">
+        <main className="w-full">
           <Outlet />
         </main>
       </div>

@@ -13,11 +13,11 @@ import { BsChevronExpand } from "react-icons/bs";
 const SideNav = () => {
   const navClasses = "flex w-full h-full gap-3 p-3 justify-start items-center cursor-pointer text-gray-500 hover:text-gray-800";
   return (
-    <div className="p-5 bg-white w-1/6">
+    <div className="p-5 bg-white w-1/6 min-w-[250px]">
       <ul className="flex flex-col gap-4">
         <li className="hover:bg-gray-100 has-[.active]:bg-gray-300">
           <NavLink
-            to="/activitites"
+            to="/activities"
             className={({ isActive }) =>
               [isActive ? "active" : "", navClasses].join(" ")
             }
@@ -27,7 +27,7 @@ const SideNav = () => {
           </NavLink>
         </li>
 
-        <li className="hover:bg-gray-100">
+        <li className="hover:bg-gray-100 has-[.active]:bg-gray-300">
           <NavLink
             to="/hotels"
             className={({ isActive }) =>
@@ -39,11 +39,7 @@ const SideNav = () => {
           </NavLink>
         </li>
 
-        <li className="hover:bg-gray-100">
-          <a className="flex w-full h-full gap-3 p-3 justify-start items-center cursor-pointer text-gray-500 hover:text-gray-800">
-            <LuPlane />
-            <span>Flights</span>
-          </a>
+        <li className="hover:bg-gray-100 has-[.active]:bg-gray-300">
           <NavLink
             to="/flights"
             className={({ isActive }) =>
@@ -55,7 +51,7 @@ const SideNav = () => {
           </NavLink>
         </li>
 
-        <li className="hover:bg-gray-100">
+        <li className="hover:bg-gray-100 has-[.active]:bg-gray-300">
           <NavLink
             to="/study"
             className={({ isActive }) =>
@@ -67,7 +63,7 @@ const SideNav = () => {
           </NavLink>
         </li>
 
-        <li className="hover:bg-gray-100">
+        <li className="hover:bg-gray-100 has-[.active]:bg-gray-300">
           <NavLink
             to="/visa"
             className={({ isActive }) =>
@@ -79,7 +75,7 @@ const SideNav = () => {
           </NavLink>
         </li>
 
-        <li className="hover:bg-gray-100">
+        <li className="hover:bg-gray-100 has-[.active]:bg-gray-300">
           <NavLink
             to="/immigration"
             className={({ isActive }) =>
@@ -91,7 +87,7 @@ const SideNav = () => {
           </NavLink>
         </li>
 
-        <li className="hover:bg-gray-100">
+        <li className="hover:bg-gray-100 has-[.active]:bg-gray-300">
           <NavLink
             to="/medical"
             className={({ isActive }) =>
@@ -103,7 +99,7 @@ const SideNav = () => {
           </NavLink>
         </li>
 
-        <li className="hover:bg-gray-100">
+        <li className="hover:bg-gray-100 has-[.active]:bg-gray-300">
           <NavLink
             to="/vacation"
             className={({ isActive }) =>
