@@ -1,15 +1,18 @@
-import React from 'react'
 import { PiToolbox } from "react-icons/pi";
 import { BiMoviePlay } from "react-icons/bi";
 import { MdNoMeals } from "react-icons/md";
 import { FaUsb } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
+import { LuPlaneTakeoff } from "react-icons/lu";
+import { LuPlaneLanding } from "react-icons/lu";
+import './FlightDetail.css';
+
 const FlightDetail = () => {
   return (
     <div className="flex mt-3">
       <div className="w-full bg-white rounded-md">
         <section className="flex items-center p-3 justify-between">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 ">
             <img
               className="size-8 rounded-full"
               src="https://plus.unsplash.com/premium_photo-1679758629410-c240e2b7d66a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D"
@@ -25,7 +28,31 @@ const FlightDetail = () => {
               </div>
             </div>
           </div>
-          <div></div>
+          <div className="flex items-center gap-2 text-xs">
+            <section className="flex flex-col">
+              <span className="font-semibold">08:35</span>
+              <span className="text-gray-600">sun, 20 Aug</span>
+            </section>
+            <section className="w-48">
+              <div className="flex justify-between items-center">
+                <LuPlaneTakeoff />
+                <span className="text-gray-600">Duration: 1h 45min</span>
+                <LuPlaneLanding />
+              </div>
+              <meter id="disk_d" value="0.6" className="w-full">
+                60%
+              </meter>
+              <div className="flex justify-between items-center">
+                <span className="font-semibold">LOS</span>
+                <span className="text-gray-600">Direct</span>
+                <span className="font-semibold">SIN</span>
+              </div>
+            </section>
+            <section className="flex flex-col">
+              <span className="font-semibold">08:35</span>
+              <span className="text-gray-600">sun, 20 Aug</span>
+            </section>
+          </div>
           <div className="font-semibold">N123,000.00</div>
         </section>
 

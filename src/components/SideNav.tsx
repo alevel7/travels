@@ -13,7 +13,7 @@ import { BsChevronExpand } from "react-icons/bs";
 const SideNav = () => {
   const navClasses = "flex w-full h-full gap-3 p-3 justify-start items-center cursor-pointer text-gray-500 hover:text-gray-800";
   return (
-    <div className="p-5 bg-white w-1/6 min-w-[250px]">
+    <div className="p-5 bg-white w-1/6 min-w-[250px] max-h-min">
       <ul className="flex flex-col gap-4">
         <li className="hover:bg-gray-100 has-[.active]:bg-gray-300">
           <NavLink

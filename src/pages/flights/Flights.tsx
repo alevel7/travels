@@ -4,7 +4,7 @@ import FlightList from './components/FlightList';
 
 const Flights = () => {
   return (
-    <div className="p-5 ">
+    <div className="p-5">
       <div className="flex items-center justify-between">
         <h3 className='flex items-center gap-2 font-semibold'>
           <LuPlane />
