@@ -1,4 +1,3 @@
-import React from 'react'
 import { SlCalender } from "react-icons/sl";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { IoPersonOutline } from "react-icons/io5";
@@ -6,6 +5,7 @@ import { BsThreeDots } from "react-icons/bs";
 import banner from "../../assets/banner.svg";
 import { IoSettingsOutline } from "react-icons/io5";
 import Flights from '../flights/Flights';
+import Hotels from '../hotels/Hotels';
 
 const Home = () => {
   return (
@@ -82,12 +82,15 @@ const Home = () => {
       </div>
 
       <div className="mt-20 mb-14">
-        <h3 className='font-semibold'>Trip Iterenaries</h3>
+        <h3 className="font-semibold">Trip Iterenaries</h3>
         <small>Your trip itineraries are placed here</small>
       </div>
 
       <div className="h-[50vh] overflow-y-scroll bg-gray-100">
         <Flights />
+      </div>
+      <div className="h-[50vh] overflow-y-scroll bg-gray-100 mt-10">
+        <Hotels />
       </div>
     </div>
   );

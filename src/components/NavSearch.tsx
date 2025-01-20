@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../assets/logo.svg";
 import { LuSearch } from "react-icons/lu";
 import { NavLink } from "react-router-dom";

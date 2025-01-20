@@ -1,4 +1,3 @@
-import React from 'react'
 import NavSearch from './NavSearch';
 import { IoHomeOutline } from "react-icons/io5";
 import { FiPieChart } from "react-icons/fi";

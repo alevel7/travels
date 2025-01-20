@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import { GiRoad } from "react-icons/gi";
 import { RiHotelLine } from "react-icons/ri";
