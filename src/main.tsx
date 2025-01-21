@@ -12,6 +12,7 @@ import Visa from './pages/visa/Visa.tsx';
 import Immigration from './pages/immigration/Immigration.tsx';
 import Medical from './pages/medical/Medical.tsx';
 import Vacation from './pages/vacation/Vacation.tsx';
+import { Toaster } from "react-hot-toast";
 import {
   QueryClient,
   QueryClientConfig,
@@ -70,6 +71,9 @@ const queryClient = new QueryClient({
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
+      <div>
+        <Toaster />
+      </div>
       <RouterProvider router={router} />
     </QueryClientProvider>
   </StrictMode>

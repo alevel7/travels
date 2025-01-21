@@ -13,7 +13,7 @@ const getDestinations = async (query: string) => {
     try {
         // Due to the request limit of 100 per day enforced by rapid api , i downloaded a sample response and used it instead
         // hence, same data get returned not matter the search
-        const res = await axios.get<ApiReponse<Destination[]>>('/src/services/destinations.json');
+        const res = await axios.get<ApiReponse<Destination[]>>('destinations.json');
         return res.data.data;
     } catch (error) {
         console.log(error);
@@ -67,7 +67,7 @@ const getDestinationHotels = async (
         currency_code
     })
     try {
-        const res = await axios.get<ApiReponse<HotelResponse>>('/src/services/hotels.json');
+        const res = await axios.get<ApiReponse<HotelResponse>>('hotels.json');
         return res.data.data;
     } catch (error) {
         console.log(error);
