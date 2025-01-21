@@ -11,6 +11,8 @@ import { Destination, HotelResponse, IHotelPayload } from "../models/hotelModels
 const getDestinations = async (query: string) => {
     console.log(query)
     try {
+        // Due to the request limit of 100 per day enforced by rapid api , i downloaded a sample response and used it instead
+        // hence, same data get returned not matter the search
         const res = await axios.get<ApiReponse<Destination[]>>('/src/services/destinations.json');
         return res.data.data;
     } catch (error) {

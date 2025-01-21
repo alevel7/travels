@@ -11,6 +11,8 @@ import { Activity, ActivityDestinationReponse, IActivityPayload } from "../model
 const fetchDestinationsForActivities = async (query: string) => {
     console.log(query)
     try {
+        // Due to the request limit of 100 per day enforced by rapid api , i downloaded a sample response and used it instead
+        // hence, same data get returned not matter the search
         const res = await axios.get<ApiReponse<ActivityDestinationReponse>>('/src/services/activitiesDestinations.json');
         return res.data.data.destinations;
     } catch (error) {
