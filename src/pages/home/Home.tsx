@@ -7,8 +7,27 @@ import { IoSettingsOutline } from "react-icons/io5";
 import Flights from '../flights/Flights';
 import Hotels from '../hotels/Hotels';
 import Activity from "../activities/Activity";
+import { Button, Modal } from "flowbite-react";
+import { useEffect, useState } from "react";
+import AddActivity from "../activities/components/AddActivity";
+import AddFlight from "../flights/components/AddFlight";
+import AddHotel from "../hotels/components/AddHotel";
 
 const Home = () => {
+  const [openModal, setOpenModal] = useState(false);
+  const [selectedModal, setSelectedModal] = useState<'flights' | 'hotels' | 'activities' | null>(null);
+
+  useEffect(() => {
+    setOpenModal((prev) => {
+      if (selectedModal) {
+        return true
+      } else {
+        return prev
+      }
+    });
+  }, [selectedModal]);
+  
+
   return (
     <div className="p-5 bg-white">
       <div>
@@ -54,7 +73,10 @@ const Home = () => {
             Build, personalize, and optimize your itineraries with our trip
             planner.
           </p>
-          <button className="mt-6 bg-primaryBg py-3 rounded-lg">
+          <button
+            className="mt-6 bg-primaryBg py-3 rounded-lg"
+            onClick={() => setSelectedModal("activities")}
+          >
             Add Activities
           </button>
         </section>
@@ -65,7 +87,10 @@ const Home = () => {
             Build, personalize, and optimize your itineraries with our trip
             planner.
           </p>
-          <button className="mt-6 bg-primaryBg py-3 rounded-lg text-white">
+          <button
+            className="mt-6 bg-primaryBg py-3 rounded-lg text-white"
+            onClick={() => setSelectedModal("hotels")}
+          >
             Add Hotels
           </button>
         </section>
@@ -76,7 +101,10 @@ const Home = () => {
             Build, personalize, and optimize your itineraries with our trip
             planner.
           </p>
-          <button className="mt-6 bg-white py-3 rounded-lg text-primary">
+          <button
+            className="mt-6 bg-white py-3 rounded-lg text-primary"
+            onClick={() => setSelectedModal('flights')}
+          >
             Add Flights
           </button>
         </section>
@@ -96,6 +124,16 @@ const Home = () => {
       <div className="h-[50vh] overflow-y-scroll bg-gray-100 mt-10">
         <Activity />
       </div>
+
+      <Modal show={openModal} onClose={() => setOpenModal(false)} size="7xl">
+        {selectedModal === "flights" && <AddFlight />}
+        {selectedModal === "hotels" && <AddHotel />}
+        {selectedModal === "activities" && <AddActivity />}
+
+        <Button color="gray" onClick={() => setOpenModal(false)}>
+          close
+        </Button>
+      </Modal>
     </div>
   );
 }

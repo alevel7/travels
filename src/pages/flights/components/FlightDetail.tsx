@@ -1,13 +1,31 @@
 import { PiToolbox } from "react-icons/pi";
 import { BiMoviePlay } from "react-icons/bi";
 import { MdNoMeals } from "react-icons/md";
-import { FaUsb } from "react-icons/fa";
+import { FaPlus, FaUsb } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
 import { LuPlaneTakeoff } from "react-icons/lu";
 import { LuPlaneLanding } from "react-icons/lu";
 import './FlightDetail.css';
+import { FlightOffer } from "../../../models/flightModels";
+import { useItineraryStore } from "../../../store/store";
 
-const FlightDetail = () => {
+interface FlightDetailProps {
+  actionType: "add" | "remove";
+  flight: FlightOffer;
+}
+
+const FlightDetail = ({ actionType="remove", flight }: FlightDetailProps) => {
+  const { addFlight, removeFlight } = useItineraryStore();
+  const departureDate = new Date(flight?.segments[0].departureTime)
+  const departureHour = departureDate.getHours();
+  const departureMin = departureDate.getMinutes();
+  const departureDay = departureDate.toDateString();
+
+  const arrivalDate = new Date(flight?.segments[0].arrivalTime);
+  const arrivalHour = arrivalDate.getHours();
+  const arrivalMin = arrivalDate.getMinutes();
+  const arrivalDay = arrivalDate.toDateString();
+  
   return (
     <div className="flex mt-3">
       <div className="w-full bg-white rounded-md">
@@ -19,7 +37,9 @@ const FlightDetail = () => {
               alt=""
             />
             <div className="flex flex-col">
-              <h3 className="font-semibold">American airlines</h3>
+              <h3 className="font-semibold">
+                {flight?.segments[0]?.departureAirport?.name}
+              </h3>
               <div className="flex items-center gap-3 text-sm">
                 <p className="text-gray-500">AA-892</p>
                 <span className="bg-primary text-white p-1 rounded-lg">
@@ -30,8 +50,10 @@ const FlightDetail = () => {
           </div>
           <div className="flex items-center gap-2 text-xs">
             <section className="flex flex-col">
-              <span className="font-semibold">08:35</span>
-              <span className="text-gray-600">sun, 20 Aug</span>
+              <span className="font-semibold">
+                {departureHour}:{departureMin}
+              </span>
+              <span className="text-gray-600">{departureDay}</span>
             </section>
             <section className="w-48">
               <div className="flex justify-between items-center">
@@ -43,14 +65,20 @@ const FlightDetail = () => {
                 60%
               </meter>
               <div className="flex justify-between items-center">
-                <span className="font-semibold">LOS</span>
+                <span className="font-semibold">
+                  {flight?.segments[0]?.departureAirport.city}
+                </span>
                 <span className="text-gray-600">Direct</span>
-                <span className="font-semibold">SIN</span>
+                <span className="font-semibold">
+                  {flight?.segments[0]?.arrivalAirport.city}
+                </span>
               </div>
             </section>
             <section className="flex flex-col">
-              <span className="font-semibold">08:35</span>
-              <span className="text-gray-600">sun, 20 Aug</span>
+              <span className="font-semibold">
+                {arrivalHour}:{arrivalMin}
+              </span>
+              <span className="text-gray-600">{arrivalDay}</span>
             </section>
           </div>
           <div className="font-semibold">N123,000.00</div>
@@ -79,11 +107,24 @@ const FlightDetail = () => {
           <a href="">Edit Details</a>
         </section>
       </div>
-      <button className="min-w-min px-1 bg-red-200">
-        <IoCloseSharp />
-      </button>
+      {actionType === "add" ? (
+        <button
+          onClick={() => addFlight(flight)}
+          className="min-w-min px-1 bg-green-200"
+          title="click to add to list "
+        >
+          <FaPlus />
+        </button>
+      ) : (
+        <button
+          onClick={() => removeFlight(flight)}
+          className="min-w-min px-1 bg-red-200"
+        >
+          <IoCloseSharp title="click to remove from list" />
+        </button>
+      )}
     </div>
   );
-}
+};
 
 export default FlightDetail

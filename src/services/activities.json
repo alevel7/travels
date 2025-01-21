@@ -1,0 +1,1551 @@
+{
+    "status": true,
+    "message": "Success",
+    "timestamp": 1737495778257,
+    "data": {
+        "__typename": "AttractionsProductSearchResponse",
+        "products": [
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRMnWwSykrsd",
+                "name": "Guided Boat Tour to Benagil Cave",
+                "slug": "prmnwwsykrsd-two-hour-guided-boat-tour-to-benagil-cave",
+                "shortDescription": "A chance to see the biggest sea cave on the continent",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 1775.42,
+                    "currency": "INR",
+                    "publicAmount": 1775.42
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/130050775.jpg?k=a6018c98253cbd94343d093a533af246d11af91c708c1b17ebe9f2cf5d1b93a0&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 608,
+                    "percentage": "98%",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.7,
+                        "total": 1057
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Portimão",
+                    "ufi": -2173080,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OI2IPHH8PiSz"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIYtmDBkNfkP"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OILIlJylZhV3"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": [
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "bestseller",
+                        "value": true,
+                        "rank": 1
+                    },
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "bestsellerInMonth",
+                        "value": true,
+                        "rank": 1
+                    },
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "bestsellerInWeek",
+                        "value": true,
+                        "rank": 1
+                    },
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "bestsellerOnWeekends",
+                        "value": true,
+                        "rank": 1
+                    },
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "bestsellerForTours",
+                        "value": true,
+                        "rank": 1
+                    },
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "highlyRated",
+                        "value": true,
+                        "rank": 1
+                    }
+                ]
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRnuN83u5cv3",
+                "name": "Caves and Coastline Cruise to Benagil",
+                "slug": "prnun83u5cv3-caves-and-coastline-cruise-to-benagil",
+                "shortDescription": "A three-hour catamaran cruise along the Algarve coastline",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 2408.86,
+                    "currency": "INR",
+                    "publicAmount": 2408.86
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/144559132.jpg?k=d3f7919cdffab9e64dbc1e9304fc27f18c2cb418196387df0409ccb052142a92&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 53,
+                    "percentage": "92%",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.5,
+                        "total": 370
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Albufeira",
+                    "ufi": -2157421,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIhIR4KkOTPW"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIpDhWhieMVf"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIgTcpXWc8x3"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": [
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "bestsellerInMonth",
+                        "value": true,
+                        "rank": 1
+                    },
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "bestsellerInWeek",
+                        "value": true,
+                        "rank": 1
+                    },
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "bestsellerOnWeekends",
+                        "value": true,
+                        "rank": 1
+                    },
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "bestsellerForTours",
+                        "value": true,
+                        "rank": 2
+                    }
+                ]
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRMH94k3kZVT",
+                "name": "Benagil Caves Visit with Dolphins Watching from Albufeira",
+                "slug": "prmh94k3kzvt-benagil-caves-visit-with-dolphins-watching-from-albufeira",
+                "shortDescription": "Visit our coast in a semi-rigid boat starting from Albufeira. Take a cruise between Albufeira and...",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 2676.51,
+                    "currency": "INR",
+                    "publicAmount": 2676.51
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/150529516.jpg?k=93bc955369557ee93905b774c8420367e98037588a76c8b65eb630498181e5e2&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 0,
+                    "percentage": "0",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.9,
+                        "total": 403
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Albufeira",
+                    "ufi": -2157421,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIt95acVaomA"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIWtmYd7GtzQ"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": [
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "bestseller",
+                        "value": true,
+                        "rank": 3
+                    }
+                ]
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRqehENighti",
+                "name": "Ponta da Piedade Boat Tour",
+                "slug": "prqehenighti-ponta-da-piedade-boat-tour",
+                "shortDescription": "A guided boat ride exploring sea caves, rock formations and beach views",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 2007.38,
+                    "currency": "INR",
+                    "publicAmount": 2007.38
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/129872724.jpg?k=e5143f2e59ed4da7483594cffb9711dd2eb046e0f0fc597cad5ce855e3443e52&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 21,
+                    "percentage": "100%",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.9,
+                        "total": 315
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Lagos",
+                    "ufi": -2167534,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OITSiV0Qfs97"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIvkj9iGKIda"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIGcImsWcSIb"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": [
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "bestseller",
+                        "value": true,
+                        "rank": 4
+                    }
+                ]
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRiTLmVxVqqA",
+                "name": "Benagil Cave Sunset Cruise",
+                "slug": "pritlmvxvqqa-benagil-cave-sunset-cruise",
+                "shortDescription": "At the chosen time we'll meet at the San Francisco de Portimão dock and board a boat to sail off ...",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 1784.34,
+                    "currency": "INR",
+                    "publicAmount": 1784.34
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://r-xx.bstatic.com/xdata/images/xphoto/300x320/223517560.jpg?k=96318ac8d3feca4154dfc4bac8ca1689106c04a8163ce7e18c307eefaa16f04b&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 0,
+                    "percentage": "0",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.7,
+                        "total": 300
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Portimão",
+                    "ufi": -2173080,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIgGAryMxDsz"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIn7TX53Klmn"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OISsQyK6hz8c"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": [
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "bestseller",
+                        "value": true,
+                        "rank": 2
+                    }
+                ]
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRwvTNcmwqm9",
+                "name": "Portimão:Embark on Nature•Benagil and Dolphins•Biologist on board",
+                "slug": "prwvtncmwqm9-embark-on-nature-benagil-and-dolphins-biologist-on-board",
+                "shortDescription": "This trip of around two hours and thirty minutes, departing from the Marina of Portimão, offers t...",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 3568.68,
+                    "currency": "INR",
+                    "publicAmount": 3568.68
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/183437761.jpg?k=47e73b509fc21bb9f40d91ed2c57760616226711eb2e0f062ba079e73a077021&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 0,
+                    "percentage": "0",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.8,
+                        "total": 148
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Portimão",
+                    "ufi": -2173080,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIiZA6P0mE1X"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIN0AkmiOrdp"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIpP2EQRAxeD"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": [
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "bestseller",
+                        "value": true,
+                        "rank": 8
+                    }
+                ]
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRKoPdNneXBN",
+                "name": "Benagil Caves and Dolphin Watching - 2.5h",
+                "slug": "prkopdnnexbn-benagil-caves-and-dolphin-watching-tour",
+                "shortDescription": "MATRIX Power boat is 16 meters long (53ft) and has a maximum capacity of 50 people. You will have...",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 3122.59,
+                    "currency": "INR",
+                    "publicAmount": 3122.59
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://r-xx.bstatic.com/xdata/images/xphoto/300x320/320830349.jpg?k=1475e76906018b7ac4e62fff70bfa09fc78272ff2a6c3a4b2f2a1e0c6df5543a&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 57,
+                    "percentage": "70%",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.7,
+                        "total": 65
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Albufeira",
+                    "ufi": -2157421,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OI69wEc5YTqL"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIWpgkdxVeRj"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIlbyobxXfum"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": [
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "bestseller",
+                        "value": true,
+                        "rank": 7
+                    },
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "bestsellerForTours",
+                        "value": true,
+                        "rank": 3
+                    }
+                ]
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRmdB6gdzBtH",
+                "name": "Albufeira: Dolphins and Caves Tour",
+                "slug": "prmdb6gdzbth-dolphins-and-caves-albufeira-marina-tour",
+                "shortDescription": "For 2h30 explore 18km of the Algarve Coast, where you will discover beaches, rock formations and ...",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 2676.51,
+                    "currency": "INR",
+                    "publicAmount": 2676.51
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://r-xx.bstatic.com/xdata/images/xphoto/300x320/184602421.jpg?k=572dc65f5b1d0d538a4faf3c8fe637dfceb013c65db0b916e5b4fc5ceb0495e6&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 0,
+                    "percentage": "0",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.8,
+                        "total": 165
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Albufeira",
+                    "ufi": -2157421,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OI3vn9NspzA7"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIf5X2qrJPrj"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIxSN0pSejmw"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": null
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRQSABvOMQyF",
+                "name": "Portimão to Benagil: Adrenaline Wave 90 Minutes Cave Tour",
+                "slug": "prqsabvomqyf-portimao-to-benagil-adrenaline-wave-90mins-cave-tour",
+                "shortDescription": "Want something exciting? Looking for something to boost your holidays? Do you want to explore one...",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 1716.53,
+                    "currency": "INR",
+                    "publicAmount": 1716.53
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://r-xx.bstatic.com/xdata/images/xphoto/300x320/136119065.jpg?k=fe48b74c499cd53a04d51d3fe488183282246703d2a74fdefbd8b926aee6be02&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 0,
+                    "percentage": "0",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.7,
+                        "total": 199
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Portimão",
+                    "ufi": -2173080,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIpvb4K9Unqm"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIDTSDAnTe5J"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIM3dkBZQZTC"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": [
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "bestseller",
+                        "value": true,
+                        "rank": 7
+                    }
+                ]
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRtwXw1fhQz6",
+                "name": "Full Day Guided Tour Historical Algarve Finest",
+                "slug": "prtwxw1fhqz6-full-day-guided-tour-historical-algarve-finest",
+                "shortDescription": "Start the tour after getting picked up from your hotel or any meeting point in the Albufeira area...",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 5799.1,
+                    "currency": "INR",
+                    "publicAmount": 5799.1
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/196571640.jpg?k=a627c648c1dd779b96681ccb1fc497ff8313f1bc9c080252b4031cc9eb559c9c&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 0,
+                    "percentage": "0",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.7,
+                        "total": 111
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Albufeira",
+                    "ufi": -2157421,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIRJiDesFKrN"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OI4OMbKv0l1W"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIJtbJzzDuqj"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIrIUKlk7snu"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIqOE6Mhbg1T"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": null
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRDTQb4jntaO",
+                "name": "Kayak Algarve tour BENAGIL by Diamond tours",
+                "slug": "prdtqb4jntao-kayak-tour-of-albufeira-caves",
+                "shortDescription": "Kayak tour through the most popular caves in the Algarve, where you will visit magnificent rock f...",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 2676.51,
+                    "currency": "INR",
+                    "publicAmount": 2676.51
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/131462873.jpg?k=cd577eb8fb890380125643a2d637e204e3143153a611aae7ee1ab125e9099e0a&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 1,
+                    "percentage": "100%",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.3,
+                        "total": 11
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Lagoa",
+                    "ufi": -2167477,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OI06Lryj0NXT"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": [
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "highlyRated",
+                        "value": true,
+                        "rank": 2
+                    }
+                ]
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRHBcNksornm",
+                "name": "Dolphins and Benagil Caves from Albufeira",
+                "slug": "prhbcnksornm-rib-boat-tour",
+                "shortDescription": "Enjoy a 2 hours and 30 minutes semi-rigid experience with the most emblematic Algarve caves and s...",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 3122.59,
+                    "currency": "INR",
+                    "publicAmount": 3122.59
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/286058351.jpg?k=e602fb40fd3dc03ca86030b7316859c753baa6f39d2c6609d08189d70deb8e6c&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 8,
+                    "percentage": "100%",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.8,
+                        "total": 430
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Albufeira",
+                    "ufi": -2157421,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OICZHEZqDleS"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIW5SKPFoadx"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": [
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "highlyRated",
+                        "value": true,
+                        "rank": 1
+                    },
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "popularFor2Travelers",
+                        "value": true,
+                        "rank": 2
+                    }
+                ]
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRU8seNZHHkW",
+                "name": "Tour to go inside the Ponta da Piedade Caves/Grottos and see the beaches - Lagos",
+                "slug": "pru8senzhhkw-ponta-da-piedade-caves-and-beaches-tour",
+                "shortDescription": "Come get amazed with everything the Lagos coastline has to offer since the Marina of Lagos until ...",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 1962.77,
+                    "currency": "INR",
+                    "publicAmount": 1962.77
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/129863032.jpg?k=b3fdee1b87dc2b7f85c5bc0e82387fb584f03d6baad37728ee17b8327412c9af&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 5,
+                    "percentage": "60%",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.8,
+                        "total": 61
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Lagos",
+                    "ufi": -2167534,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIL9wzd63Q7M"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIp5OoDEtC6S"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": null
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRhZcCF0lyJ6",
+                "name": "Algarve Jeep Safari - Half Day Trip Afternoon",
+                "slug": "prhzccf0lyj6-half-day-algarve-jeep-safari-afternoon-tour",
+                "shortDescription": "Visit the countryside of the Algarve on this half-day trip!\n\n• Directed by a professional multili...",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 2810.34,
+                    "currency": "INR",
+                    "publicAmount": 3122.59
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://r-xx.bstatic.com/xdata/images/xphoto/300x320/143261867.jpg?k=fbcb558715001fa7b421fe04171b04da069bbf9a89859235d1603f9bc651bd5d&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 3,
+                    "percentage": "100%",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.9,
+                        "total": 29
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Albufeira",
+                    "ufi": -2157421,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIPeXK1svjsM"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIXBDZIDYaui"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIUu2kha9YQq"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": null
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRKbDchT7efo",
+                "name": "Algar de Benagil from Lagos",
+                "slug": "prkbdcht7efo-algar-de-benagil-and-benagil-coast-tour",
+                "shortDescription": "Visit the most famous secret of Algarve, the Algar de Benagil departing from Marina de Lagos. Dur...",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 3568.68,
+                    "currency": "INR",
+                    "publicAmount": 3568.68
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/426757668.jpg?k=1a0347a0159a64605769c5886b8fdf9dfc10d71ab4ce074714065cd6150e2e57&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 6,
+                    "percentage": "83%",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.9,
+                        "total": 71
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Lagos",
+                    "ufi": -2167534,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OI4Q7wLRQBeQ"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIuaphhWTp3F"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIpf9AjQ4zUs"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": null
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PR7zSxHmmt4K",
+                "name": "Catamaran Cruise: Caves and Coastline to Benagil",
+                "slug": "pr7zsxhmmt4k-benagil-catamaran-cruise",
+                "shortDescription": "Are you looking for the most stunning \n\ncave and \n\ncoastline views of the Algarve?\n\n Hop on board...",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 2676.51,
+                    "currency": "INR",
+                    "publicAmount": 2676.51
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/131464343.jpg?k=511084247421e91153df12a89395d44a5fe7c81fe426ef8e297e3c2f800e8f0b&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 101,
+                    "percentage": "88%",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.7,
+                        "total": 83
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Albufeira",
+                    "ufi": -2157421,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIEDHcM4FXl9"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIDrjgF5an8Z"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OI80h8bdlOYL"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": null
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRD3hJAoXMlL",
+                "name": "Dolphin Watching and Cave Boat Cruise from Albufeira",
+                "slug": "prd3hjaoxmll-dolphin-watching-and-cave-boat-cruise",
+                "shortDescription": "Departing from Albufeira Marina, this is a two hour and thirty minutes activity that will take yo...",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 3122.59,
+                    "currency": "INR",
+                    "publicAmount": 3122.59
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://r-xx.bstatic.com/xdata/images/xphoto/300x320/134534732.jpg?k=8670b65014a55e4a20780858f648c756292b0f842b4f431d0409123f1ad57259&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 4,
+                    "percentage": "100%",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.6,
+                        "total": 83
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Albufeira",
+                    "ufi": -2157421,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OI1oYEuMUQX7"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIgLy10nuUNn"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OI2ZzTkdRPf6"
+                            }
+                        ]
+                    },
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIw4CK7kjkhu"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIESmwO3Kn9n"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIIqyshl7ZuK"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": null
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRHyQcm819WH",
+                "name": "Brodie's Historical and Fun Lagos Walking Tour",
+                "slug": "prhyqcm819wh-walking-tour",
+                "shortDescription": "I've been living in Lagos for 17 years and during this time I've learnt a great deal about the hi...",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 1338.26,
+                    "currency": "INR",
+                    "publicAmount": 1338.26
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/130171114.jpg?k=52eb993d0b2e36dbd6bed55419cc786552fa17db92a4dc1b08ed9a65a752e909&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 3,
+                    "percentage": "100%",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.9,
+                        "total": 37
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Lagos",
+                    "ufi": -2167534,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OI3IQJV4j4kR"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIFlzU5zw6yY"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIBaPxD6bWzz"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": [
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "popularFor1Traveler",
+                        "value": true,
+                        "rank": 2
+                    }
+                ]
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRMqZyGfBPCd",
+                "name": "Benagil Caves Kayaking Tour",
+                "slug": "prmqzygfbpcd-benagil-caves-kayaking-tour",
+                "shortDescription": "A guided tour to visit the iconic Benagil Caves",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 4014.76,
+                    "currency": "INR",
+                    "publicAmount": 4014.76
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://q-xx.bstatic.com/xdata/images/xphoto/300x320/129866625.jpg?k=3076e91651bdcd1c59a3bb9903751817e59a2288f8aa28d9e89e21323f0de543&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 25,
+                    "percentage": "84%",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.5,
+                        "total": 257
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Portimão",
+                    "ufi": -2173080,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIW4Ei1dfnWe"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": [
+                    {
+                        "__typename": "AttractionsProductFlags",
+                        "flag": "popularFor2Travelers",
+                        "value": true,
+                        "rank": 4
+                    }
+                ]
+            },
+            {
+                "__typename": "AttractionsProduct",
+                "cancellationPolicy": {
+                    "__typename": "AttractionsCancellationPolicy",
+                    "hasFreeCancellation": true
+                },
+                "id": "PRApWRK3RNac",
+                "name": "Benagil Long Boat tour (From Carvoeiro to Praia da Marinha)",
+                "slug": "prapwrk3rnac-guided-boat-tour-from-carvoeiro",
+                "shortDescription": "Comfortable small fiberglass boats, visiting the interior of the most beautiful Benagil Seacaves,...",
+                "representativePrice": {
+                    "__typename": "AttractionsPrice",
+                    "chargeAmount": 3122.59,
+                    "currency": "INR",
+                    "publicAmount": 3122.59
+                },
+                "primaryPhoto": {
+                    "__typename": "AttractionsPhoto",
+                    "small": "https://r-xx.bstatic.com/xdata/images/xphoto/300x320/107846229.jpg?k=c73942bf881f97c2c049841432e38497aff0d5d306e18aaff9b598c264522a9a&o="
+                },
+                "reviewsStats": {
+                    "__typename": "AttractionsProductReviewStats",
+                    "allReviewsCount": 0,
+                    "percentage": "0",
+                    "combinedNumericStats": {
+                        "__typename": "AttractionsProductCombinedReviewStats",
+                        "average": 4.9,
+                        "total": 94
+                    }
+                },
+                "ufiDetails": {
+                    "__typename": "AttractionLocationResponse",
+                    "bCityName": "Portimão",
+                    "ufi": -2173080,
+                    "url": {
+                        "__typename": "AttractionLocationUrl",
+                        "country": "pt"
+                    }
+                },
+                "offers": [
+                    {
+                        "__typename": "Offer",
+                        "items": [
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIIkslro8leS"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OImYgPw79JZ8"
+                            },
+                            {
+                                "__typename": "OfferItem",
+                                "id": "OIOGl5e31NM3"
+                            }
+                        ]
+                    }
+                ],
+                "supportedFeatures": {
+                    "__typename": "AttractionsProductSupportedFeatures",
+                    "nativeApp": true
+                },
+                "flags": null
+            }
+        ],
+        "filterStats": {
+            "__typename": "FilterStats",
+            "unfilteredProductCount": 588,
+            "filteredProductCount": 588
+        },
+        "sorters": [
+            {
+                "__typename": "AttractionsSorterOption",
+                "name": "Our top picks",
+                "value": "trending"
+            },
+            {
+                "__typename": "AttractionsSorterOption",
+                "name": "Most popular",
+                "value": "attr_book_score"
+            },
+            {
+                "__typename": "AttractionsSorterOption",
+                "name": "Lowest price",
+                "value": "lowest_price"
+            },
+            {
+                "__typename": "AttractionsSorterOption",
+                "name": "Best reviewed",
+                "value": "highest_weighted_rating"
+            }
+        ],
+        "defaultSorter": {
+            "__typename": "AttractionsSorterOption",
+            "name": "Our top picks",
+            "value": "trending"
+        },
+        "filterOptions": {
+            "__typename": "FilterOptions",
+            "typeFilters": [
+                {
+                    "__typename": "FilterOption",
+                    "name": "Tours",
+                    "tagname": "PTCMCuXtHgrC",
+                    "productCount": 408
+                },
+                {
+                    "__typename": "FilterOption",
+                    "name": "Nature & outdoor",
+                    "tagname": "PTCMCLfBZQwO",
+                    "productCount": 197
+                },
+                {
+                    "__typename": "FilterOption",
+                    "name": "Entertainment & tickets",
+                    "tagname": "PTCMCgNr9fWb",
+                    "productCount": 105
+                },
+                {
+                    "__typename": "FilterOption",
+                    "name": "Museums, arts & culture",
+                    "tagname": "PTCMCcodv3rh",
+                    "productCount": 92
+                },
+                {
+                    "__typename": "FilterOption",
+                    "name": "Services & rentals",
+                    "tagname": "PTCMCowbPYbZ",
+                    "productCount": 55
+                },
+                {
+                    "__typename": "FilterOption",
+                    "name": "Food & drink",
+                    "tagname": "PTCMCi9PTIPL",
+                    "productCount": 27
+                },
+                {
+                    "__typename": "FilterOption",
+                    "name": "Workshops & classes",
+                    "tagname": "PTCMClxjwGcP",
+                    "productCount": 12
+                }
+            ],
+            "labelFilters": [
+                {
+                    "__typename": "FilterOption",
+                    "name": "Free cancellation",
+                    "tagname": "free_cancellation",
+                    "productCount": 579
+                }
+            ],
+            "ufiFilters": [
+                {
+                    "__typename": "FilterOption",
+                    "name": "Albufeira",
+                    "tagname": "-2157421",
+                    "productCount": 242
+                },
+                {
+                    "__typename": "FilterOption",
+                    "name": "Portimão",
+                    "tagname": "-2173080",
+                    "productCount": 185
+                },
+                {
+                    "__typename": "FilterOption",
+                    "name": "Lagos",
+                    "tagname": "-2167534",
+                    "productCount": 137
+                },
+                {
+                    "__typename": "FilterOption",
+                    "name": "Lagoa",
+                    "tagname": "-2167477",
+                    "productCount": 13
+                },
+                {
+                    "__typename": "FilterOption",
+                    "name": "Armação de Pêra",
+                    "tagname": "-2158624",
+                    "productCount": 11
+                }
+            ],
+            "priceFilters": null
+        }
+    }
+}

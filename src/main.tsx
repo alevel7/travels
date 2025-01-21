@@ -12,6 +12,11 @@ import Visa from './pages/visa/Visa.tsx';
 import Immigration from './pages/immigration/Immigration.tsx';
 import Medical from './pages/medical/Medical.tsx';
 import Vacation from './pages/vacation/Vacation.tsx';
+import {
+  QueryClient,
+  QueryClientConfig,
+  QueryClientProvider,
+} from "@tanstack/react-query";
 
 const router = createBrowserRouter([
   {
@@ -58,8 +63,14 @@ const router = createBrowserRouter([
   },
 ]);
 
+const queryClient = new QueryClient({
+  retry: false,
+} as QueryClientConfig);
+
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
+    <QueryClientProvider client={queryClient}>
       <RouterProvider router={router} />
+    </QueryClientProvider>
   </StrictMode>
 );

@@ -1,0 +1,139 @@
+{
+    "status": true,
+    "message": "Success",
+    "timestamp": 1737495442992,
+    "data": {
+        "products": [
+            {
+                "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFJwVHdaT3NsdVZ3IiwidWZpIjotMjE2Nzk3M30=",
+                "__typename": "AttractionsSearchProductSuggestion",
+                "title": "Transfer Lisbon to Lagos",
+                "productId": "PRpTwZOsluVw",
+                "productSlug": "prptwzosluvw-transfer-lisbon-to-lagos",
+                "taxonomySlug": "transfers-services",
+                "cityUfi": -2167973,
+                "cityName": "Lisbon",
+                "countryCode": "pt"
+            },
+            {
+                "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFJtaTFiS2VyWm1SIiwidWZpIjotMjE2NzUzNH0=",
+                "__typename": "AttractionsSearchProductSuggestion",
+                "title": "Catamaran Cruise in Lagos",
+                "productId": "PRmi1bKerZmR",
+                "productSlug": "prmi1bkerzmr-catamaran-cruise-along-ponta-da-piedade",
+                "taxonomySlug": "tours",
+                "cityUfi": -2167534,
+                "cityName": "Lagos",
+                "countryCode": "pt"
+            },
+            {
+                "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFIzWlRJb1Y4d2JZIiwidWZpIjotMjE2NzUzNH0=",
+                "__typename": "AttractionsSearchProductSuggestion",
+                "title": "Kayak hire in Lagos",
+                "productId": "PR3ZTIoV8wbY",
+                "productSlug": "pr3ztiov8wby-kayak-hire-in-lagos",
+                "taxonomySlug": "activities",
+                "cityUfi": -2167534,
+                "cityName": "Lagos",
+                "countryCode": "pt"
+            },
+            {
+                "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFJDYm5sd3FKRGh5IiwidWZpIjotMjE2NzUzNH0=",
+                "__typename": "AttractionsSearchProductSuggestion",
+                "title": "Paddleboard rental in Lagos",
+                "productId": "PRCbnlwqJDhy",
+                "productSlug": "prcbnlwqjdhy-paddleboard-rental-in-lagos",
+                "taxonomySlug": "tours",
+                "cityUfi": -2167534,
+                "cityName": "Lagos",
+                "countryCode": "pt"
+            },
+            {
+                "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFJDQTUxZTZNVzB4IiwidWZpIjotMjE2Nzk3M30=",
+                "__typename": "AttractionsSearchProductSuggestion",
+                "title": "TRANSFER Lisbon to Lagos",
+                "productId": "PRCA51e6MW0x",
+                "productSlug": "prca51e6mw0x-transfer-lisbon-to-lagos",
+                "taxonomySlug": "transfers-services",
+                "cityUfi": -2167973,
+                "cityName": "Lisbon",
+                "countryCode": "pt"
+            },
+            {
+                "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFJlMEY0SURqVjRIIiwidWZpIjotMjE2NzUzNH0=",
+                "__typename": "AttractionsSearchProductSuggestion",
+                "title": "From Airport to Lagos Transport",
+                "productId": "PRe0F4IDjV4H",
+                "productSlug": "pre0f4idjv4h-from-airport-to-lagos-transport",
+                "taxonomySlug": "transfers-services",
+                "cityUfi": -2167534,
+                "cityName": "Lagos",
+                "countryCode": "pt"
+            },
+            {
+                "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFI4U3NMdHBsQXN6IiwidWZpIjotMjE2NzUzNH0=",
+                "__typename": "AttractionsSearchProductSuggestion",
+                "title": "Lagos Zoo Admission Ticket",
+                "productId": "PR8SsLtplAsz",
+                "productSlug": "pr8ssltplasz-lagos-zoo-admission",
+                "taxonomySlug": "activities",
+                "cityUfi": -2167534,
+                "cityName": "Lagos",
+                "countryCode": "pt"
+            },
+            {
+                "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFJjUWFHR2ZBcUdoIiwidWZpIjotMjE1NzQyMX0=",
+                "__typename": "AttractionsSearchProductSuggestion",
+                "title": "Lagos - Half-Day Private",
+                "productId": "PRcQaGGfAqGh",
+                "productSlug": "prcqaggfaqgh-guided-tour-of-sagres-and-lagos",
+                "taxonomySlug": "tours",
+                "cityUfi": -2157421,
+                "cityName": "Albufeira",
+                "countryCode": "pt"
+            },
+            {
+                "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFJxWjgyUTg3MlJyIiwidWZpIjotMjE2Nzk3M30=",
+                "__typename": "AttractionsSearchProductSuggestion",
+                "title": "Faro airport (FAO) to Lagos",
+                "productId": "PRqZ82Q872Rr",
+                "productSlug": "prqz82q872rr-faro-airport-fao-to-lagos",
+                "taxonomySlug": "transfers-services",
+                "cityUfi": -2167973,
+                "cityName": "Lisbon",
+                "countryCode": "pt"
+            },
+            {
+                "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFI4QVE5NW83ZEV1IiwidWZpIjotMjE2NzUzNH0=",
+                "__typename": "AttractionsSearchProductSuggestion",
+                "title": "Lagos Golden Coast Cruise",
+                "productId": "PR8AQ95o7dEu",
+                "productSlug": "pr8aq95o7deu-lagos-golden-coast-cruise",
+                "taxonomySlug": "tours",
+                "cityUfi": -2167534,
+                "cityName": "Lagos",
+                "countryCode": "pt"
+            }
+        ],
+        "destinations": [
+            {
+                "id": "eyJ1ZmkiOi0yMTY3NTM0fQ==",
+                "__typename": "AttractionsSearchDestinationSuggestion",
+                "ufi": -2167534,
+                "country": "Portugal",
+                "cityName": "Lagos",
+                "productCount": 588,
+                "cc1": "pt"
+            },
+            {
+                "id": "eyJ1ZmkiOjkwMDA1Nzc3N30=",
+                "__typename": "AttractionsSearchDestinationSuggestion",
+                "ufi": 900057777,
+                "country": "Spain",
+                "cityName": "Lagos",
+                "productCount": 687,
+                "cc1": "es"
+            }
+        ]
+    }
+}
