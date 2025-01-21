@@ -56,7 +56,7 @@ const HotelDetail = () => {
               <span>Check Out: 20-12-2024</span>
             </div>
           </section>
-          <section className="flex items-center justify-between p-3 text-primary text-sm font-semibold">
+          <section className="flex items-center justify-between p-3 text-primary text-sm font-medium">
             <div className="flex items-center gap-3">
               <a href="">Hotel Details</a>
               <a href="">Price Details</a>

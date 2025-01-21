@@ -71,7 +71,7 @@ const FlightDetail = () => {
           </p>
         </section>
 
-        <section className="flex items-center justify-between p-3 text-primary">
+        <section className="flex items-center justify-between p-3 text-primary font-medium">
           <div className="flex items-center gap-3">
             <a href="">Fight Details</a>
             <a href="">Price Details</a>

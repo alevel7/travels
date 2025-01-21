@@ -6,6 +6,7 @@ import banner from "../../assets/banner.svg";
 import { IoSettingsOutline } from "react-icons/io5";
 import Flights from '../flights/Flights';
 import Hotels from '../hotels/Hotels';
+import Activity from "../activities/Activity";
 
 const Home = () => {
   return (
@@ -91,6 +92,9 @@ const Home = () => {
       </div>
       <div className="h-[50vh] overflow-y-scroll bg-gray-100 mt-10">
         <Hotels />
+      </div>
+      <div className="h-[50vh] overflow-y-scroll bg-gray-100 mt-10">
+        <Activity />
       </div>
     </div>
   );

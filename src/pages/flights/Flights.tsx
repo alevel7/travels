@@ -9,7 +9,7 @@ const Flights = () => {
           <LuPlane />
           <span>Flights</span>
         </h3>
-        <button type="button" className='rounded-lg bg-white text-primary px-4 py-2 font-semibold'>Add Flights</button>
+        <button type="button" className='rounded-md bg-white text-primary px-4 py-2 font-semibold'>Add Flights</button>
       </div>
 
       <FlightList />
